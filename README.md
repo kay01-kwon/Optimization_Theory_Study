@@ -27,10 +27,10 @@ $g + B \gamma g = 0.$
 
 $\gamma g^{T} B g = - g^{T} g$
 
-$\gamma = -g / \left(g^{T}Bg\right)$
+$\gamma = -\frac{g}{\left(g^{T}Bg\right)}$
 
 Thus, the line segment $p^{U}$ becomes like the below:
 
-$p^{U} = -g^{T} g / \left(g^{T} B g\right) g.$
+$p^{U} = \frac{-g^{T} g}{\left(g^{T} B g\right)} g.$
 
 J. Nocedal and S. J. Wright, *Numerical Optimization*, 2nd ed. Springer, 2006.
