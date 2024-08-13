@@ -1,6 +1,8 @@
 # Trust region newton method
 
-```
+
+## Trust region algorithm
+
 Given $\hat{\Delta}$, $\Delta_{0}\in \left(0, \hat{\Delta}\right)$, and $\eta$
 
 k = 0, 1, 2, ...
@@ -21,4 +23,4 @@ if $\rho_{k} > \eta$
   $x_{k+1} = x_{k} + p_{k}$
 else
   $x_{k+1} = x_{k}$
-```
+
