@@ -19,7 +19,7 @@ The differentiation of the model function with respect to the direction $p$
 
 becomes like the below:
 
-$\frac{\partial m_{k}(p)}{\partial} = g + Bp = 0.$
+$\frac{\partial m_{k}(p)}{\partial p} = g + Bp = 0.$
 
 Replace $p$ with $p^{U}$, then you can get the following equation:
 
