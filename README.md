@@ -1,7 +1,3 @@
-# Gauss Newton method
-
-<img src="/gauss newton method/test_gauss_newton.gif"/>
-
 # Trust region newton method
 
 Derivation of $p^{U}$.
@@ -35,3 +31,7 @@ Thus, the line segment $p^{U}$ becomes like the below:
 $p^{U} = \frac{-g^{T} g}{\left(g^{T} B g\right)} g.$
 
 J. Nocedal and S. J. Wright, *Numerical Optimization*, 2nd ed. Springer, 2006.
+
+# Gauss Newton method
+
+<img src="/gauss newton method/test_gauss_newton.gif"/>
