@@ -43,15 +43,19 @@ for i = 1:max_iter
     clf
     subplot(121)
     histogram(residual)
+    xlabel('residual')
+    ylabel('probability')
 
     subplot(122)
     plot(meas(:,1), meas(:,2));
     hold on
     plot(meas(:,1), y_model);
+    xlabel('x')
+    ylabel('y')
 
     grid on
 
-    pause(0.5)
+    pause(1)
 
     exportgraphics(gcf, 'test_gauss_newton.gif','Resolution',600,'Append',true);
     
