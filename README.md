@@ -34,4 +34,4 @@ J. Nocedal and S. J. Wright, *Numerical Optimization*, 2nd ed. Springer, 2006.
 
 # Gauss Newton method
 
-<img src="/gauss newton method/test_gauss_newton.gif" width="30%" height="30%"/>
+<img src="/gauss newton method/test_gauss_newton.gif" width="50%" height="50%"/>
