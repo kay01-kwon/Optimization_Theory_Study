@@ -1,7 +1,8 @@
+# Gauss Newton method
+
+<img src="/gauss newton method/test_gauss_newton.gif"/>
+
 # Trust region newton method
-
-
-## Trust region algorithm
 
 Derivation of $p^{U}$.
 
