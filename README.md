@@ -1,4 +1,6 @@
 # 1. Trust region newton method
+<img src="/trust region method/trust_region_algorithm_figure.png" width="50%" height="50%"/>
+
 ## Subproblem
 
 ### 1.1 DogLeg algorithm
