@@ -68,8 +68,10 @@ $g_{k}^{T} p_{k,+} + \frac{1}{2} p_{k,+}^{T} B p_{k,+}$ and $g_{k}^{T} p_{k,-} +
 
 By comparing the value of $m(p_{k,+})$ and $m(p_{k,-})$, you can find out the right $\tau$.
 
-# Gauss Newton method
+# 2. Gauss Newton method
 
 <img src="/gauss newton method/gauss_newton_method_result.gif " width="50%" height="50%"/>
 
+
+# 3. Reference
 J. Nocedal and S. J. Wright, *Numerical Optimization*, 2nd ed. Springer, 2006.
