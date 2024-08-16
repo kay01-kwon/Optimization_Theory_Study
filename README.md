@@ -44,7 +44,15 @@ $\left(z_{j} + \tau d_{j} \right)^{T}\left(z_{j} + \tau d_{j} \right) = \Delta_{
 
 $\tau^2 d_{j}^{T} d_{j} + 2 \tau d_{j}^{T} z_{j} + z_{j}^{T} z_{j} - \Delta_{k}^2 = 0$
 
-$\Therefore \tau = \frac{-b \pm \sqrt{b^2 - ac}}{a}$
+$\therefore \tau = \frac{-b \pm \sqrt{b^2 - ac}}{a}$
+
+where $a = d_{j}^{T} d_{j}, b = d_{j}^{T} z_{j}, c = z_{j}^{T} z_{j} - \Delta_{k}^{2}.$
+
+$\tau_{+} = \frac{-b + \sqrt{b^2 -ac}}{a}$
+
+and
+
+$\tau_{+} = \frac{-b - \sqrt{b^2 -ac}}{a}$
 
 # Gauss Newton method
 
