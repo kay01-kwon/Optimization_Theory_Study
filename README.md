@@ -54,9 +54,7 @@ and
 
 $\tau_{-} = \frac{-b - \sqrt{b^2 -ac}}{a}$
 
-When finding $\tau$ such that $p_{k} = z_{j} + \tau d_{j}$ minimizes $m_{k}\left(p\right)$ in (4.5)
-
-and satisfies $\lVert p_{k} \rVert = \Delta_{k}$,
+When finding $\tau$ such that $p_{k} = z_{j} + \tau d_{j}$ minimizes $m_{k}\left(p\right)$ in (4.5) and satisfies $\lVert p_{k} \rVert = \Delta_{k}$,
 
 choose one between $\tau_{+}$ and $\tau_{-}$.
 
