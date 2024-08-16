@@ -39,6 +39,8 @@ $p^{U} = \frac{-g^{T} g}{\left(g^{T} B g\right)} g.$
 
 ### 1.2 Conjugate Gradient Steihaug
 
+<img src="/CG_Steihaug/cg_steihaug_algorithm.png" width="30%" height="30%"/>
+
 Boundary problem
 
 $\lVert p_{k} \rVert=\Delta_k$
