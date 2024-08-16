@@ -1,5 +1,7 @@
-# Trust region newton method
-## DogLeg algorithm
+# 1. Trust region newton method
+## Subproblem
+
+### 1.1 DogLeg algorithm
 Derivation of $p^{U}$.
 
 The line segment running from the origin to the minimizer of 
@@ -30,7 +32,7 @@ Thus, the line segment $p^{U}$ becomes like the below:
 
 $p^{U} = \frac{-g^{T} g}{\left(g^{T} B g\right)} g.$
 
-## Conjugate Gradient Steihaug
+### 1.2 Conjugate Gradient Steihaug
 
 # Gauss Newton method
 
