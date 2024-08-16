@@ -38,6 +38,14 @@ Boundary problem
 
 $\lVert p_{k} \rVert=\Delta_k$
 
+where $p_{k} = z_{j} + \tau d_{j}.$
+
+$\left(z_{j} + \tau d_{j} \right)^{T}\left(z_{j} + \tau d_{j} \right) = \Delta_{k}^{2}$
+
+$\tau^2 d_{j}^{T} d_{j} + 2 \tau d_{j}^{T} z_{j} + z_{j}^{T} z_{j} - \Delta_{k}^2 = 0$
+
+$\Therefore \tau = \frac{-b \pm \sqrt{b^2 - ac}}{a}$
+
 # Gauss Newton method
 
 <img src="/gauss newton method/gauss_newton_method_result.gif " width="50%" height="50%"/>
