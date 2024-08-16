@@ -9,7 +9,7 @@ for i = 1:max_iter
     % Gradient and hessian from approximated model
     [g,B] = model_grad_hes_func(x_k);
 
-    % Dogleg algorithm to get step and direction
+    % cg steihaug algorithm to solve the subproblem
     p = cg_steihaug(g, B, tol, trust_radius);
 
     % || p || from the dogleg algorithm
