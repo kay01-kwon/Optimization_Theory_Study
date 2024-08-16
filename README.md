@@ -1,5 +1,5 @@
 # Trust region newton method
-
+## DogLeg algorithm
 Derivation of $p^{U}$.
 
 The line segment running from the origin to the minimizer of 
@@ -30,8 +30,10 @@ Thus, the line segment $p^{U}$ becomes like the below:
 
 $p^{U} = \frac{-g^{T} g}{\left(g^{T} B g\right)} g.$
 
-J. Nocedal and S. J. Wright, *Numerical Optimization*, 2nd ed. Springer, 2006.
+## Conjugate Gradient Steihaug
 
 # Gauss Newton method
 
 <img src="/gauss newton method/gauss_newton_method_result.gif " width="50%" height="50%"/>
+
+J. Nocedal and S. J. Wright, *Numerical Optimization*, 2nd ed. Springer, 2006.
