@@ -52,7 +52,23 @@ $\tau_{+} = \frac{-b + \sqrt{b^2 -ac}}{a}$
 
 and
 
-$\tau_{+} = \frac{-b - \sqrt{b^2 -ac}}{a}$
+$\tau_{-} = \frac{-b - \sqrt{b^2 -ac}}{a}$
+
+When finding $\tau$ such that $p_{k} = z_{j} + \tau d_{j}$ minimizes $m_{k}\left(p\right)$ in (4.5)
+
+and satisfies $\lVert p_{k} \rVert = \Delta_{k}$,
+
+choose one between $\tau_{+}$ and $\tau_{-}$.
+
+Specifically, let $p_{k,+} = z_{j} + \tau_{+} d_{j}$ and $p_{k,-} = z_{j} + \tau_{-} d_{j}$ be.
+
+Then, $m(p_{k,+})$ and $m(p_{k,-})$ becomes like 
+
+$g_{k}^{T} p_{k,+} + \frac{1}{2} p_{k,+}^{T} B p_{k,+}$ and $g_{k}^{T} p_{k,-} + \frac{1}{2} p_{k,-}^{T} B p_{k,-}$,
+
+respectively.
+
+By comparing the value of $m(p_{k,+})$ and $m(p_{k,-})$, you can find out the right $\tau$.
 
 # Gauss Newton method
 
