@@ -32,7 +32,7 @@ norm_diff_p = sqrt(diff_p'*diff_p);
 
 
 a = norm_diff_p^2;
-b = norm_p_U*norm_diff_p;
+b = p_U'*diff_p;
 c = norm_p_U^2 - trust_radius^2;
 
 alpha = (-b + sqrt(b^2-a*c))/a;
