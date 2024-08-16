@@ -34,6 +34,10 @@ $p^{U} = \frac{-g^{T} g}{\left(g^{T} B g\right)} g.$
 
 ### 1.2 Conjugate Gradient Steihaug
 
+Boundary problem
+
+$\norm{p_k}=\Delta_k$
+
 # Gauss Newton method
 
 <img src="/gauss newton method/gauss_newton_method_result.gif " width="50%" height="50%"/>
