@@ -64,9 +64,7 @@ Specifically, let $p_{k,+} = z_{j} + \tau_{+} d_{j}$ and $p_{k,-} = z_{j} + \tau
 
 Then, $m(p_{k,+})$ and $m(p_{k,-})$ becomes like 
 
-$g_{k}^{T} p_{k,+} + \frac{1}{2} p_{k,+}^{T} B p_{k,+}$ and $g_{k}^{T} p_{k,-} + \frac{1}{2} p_{k,-}^{T} B p_{k,-}$,
-
-respectively.
+$g_{k}^{T} p_{k,+} + \frac{1}{2} p_{k,+}^{T} B p_{k,+}$ and $g_{k}^{T} p_{k,-} + \frac{1}{2} p_{k,-}^{T} B p_{k,-}$, respectively.
 
 By comparing the value of $m(p_{k,+})$ and $m(p_{k,-})$, you can find out the right $\tau$.
 
