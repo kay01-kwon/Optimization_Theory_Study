@@ -36,7 +36,7 @@ $p^{U} = \frac{-g^{T} g}{\left(g^{T} B g\right)} g.$
 
 Boundary problem
 
-$\norm{p_k}=\Delta_k$
+$\lVert p_{k} \rVert=\Delta_k$
 
 # Gauss Newton method
 
