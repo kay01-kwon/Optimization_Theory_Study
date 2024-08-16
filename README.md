@@ -5,7 +5,7 @@
 
 ### 1.1 DogLeg algorithm
 
-<img src="/trust region newton method/dogleg_algorithm.png" width="60%" height="60%"/>
+<img src="/trust region newton method/dogleg_algorithm.png" width="30%" height="30%"/>
 
 Derivation of $p^{U}$.
 
