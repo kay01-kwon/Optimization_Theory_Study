@@ -4,6 +4,9 @@
 ## Subproblem
 
 ### 1.1 DogLeg algorithm
+
+<img src="/trust region newton method/dogleg_algorithm.png" width="80%" height="80%"/>
+
 Derivation of $p^{U}$.
 
 The line segment running from the origin to the minimizer of 
