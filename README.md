@@ -75,6 +75,8 @@ By comparing the value of $m(p_{k,+})$ and $m(p_{k,-})$, you can find out the ri
 
 # 2. Gauss Newton method
 
+<img src="/gauss newton method/gauss_newton_algorithm.png" width="50%" height="50%"/>
+
 <img src="/gauss newton method/gauss_newton_method_result.gif " width="50%" height="50%"/>
 
 
