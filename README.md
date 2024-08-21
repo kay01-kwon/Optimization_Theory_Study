@@ -81,7 +81,7 @@ By comparing the value of $m(p_{k,+})$ and $m(p_{k,-})$, you can find out the ri
 
 # 3. Levenberg Marquardt method
 
-<img src="/Levenberg marquardt method/Levenberg_marquardt_algorithm.jpg" width="50%" height="50%"/>
+<img src="/Levenberg marquardt method/Levenberg_marquardt_algorithm.jpg" width="30%" height="30%"/>
 
 <img src="/Levenberg marquardt method/test_lm_result.gif" width="50%" height="50%"/>
 
