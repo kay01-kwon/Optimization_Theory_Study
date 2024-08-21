@@ -113,4 +113,5 @@ Also, it reduces the step size to move the estimated parameter in the wrong dire
 J. Nocedal and S. J. Wright, *Numerical Optimization*, 2nd ed. Springer, 2006.
 
 Levenberg marquardt method
+
 K. Madsen, H.B. Nielsen, and O. Tingleff, *Methods for non-linear least squares problems*, 2nd ed. 2004.
