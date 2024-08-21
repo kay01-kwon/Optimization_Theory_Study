@@ -81,7 +81,15 @@ By comparing the value of $m(p_{k,+})$ and $m(p_{k,-})$, you can find out the ri
 
 # 3. Levenberg Marquardt method
 
-Damped gauss newton method which prevents parameter from moving far away from the optimal solution.
+Damped gauss newton method
+
+It prevents parameter from moving far away 
+
+from the optimal solution when the approximation is poor.
+
+Otherwise, the method makes it possible for the parameter 
+
+to converge to the optimal solution as fast as possible.
 
 A large value of $\rho$ implies that the approximation is good.
 
