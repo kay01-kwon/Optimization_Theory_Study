@@ -79,6 +79,10 @@ By comparing the value of $m(p_{k,+})$ and $m(p_{k,-})$, you can find out the ri
 
 <img src="/gauss newton method/gauss_newton_method_result.gif " width="50%" height="50%"/>
 
+# 3. Levenberg Marquardt method
+
+<img src="/Levenberg Marquardt method/test_lm_result.gif" width="50%" height="50%"/>
+
 
 # 3. Reference
 J. Nocedal and S. J. Wright, *Numerical Optimization*, 2nd ed. Springer, 2006.
