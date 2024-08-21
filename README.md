@@ -81,10 +81,28 @@ By comparing the value of $m(p_{k,+})$ and $m(p_{k,-})$, you can find out the ri
 
 # 3. Levenberg Marquardt method
 
+Damped gauss newton method which prevents parameter from moving far away from the optimal solution.
+
+A large value of $\rho$ implies that the approximation is good.
+
+In this case, by decreasing $\mu$, the method becomes getting closer to Gauss-Newton method.
+
+If $\rho$ is small or negative, the approximation of model is poor,
+
+increase $\mu$ and $\nu$ through multiplicating by $\nu$ and 2, respectively.
+
+Since the $mu$ is incresaed, the method is getting closer to the steepest descent method.
+
+Also, it reduces the step size to move the estimated parameter in the wrong direction quite a lot.
+
 <img src="/Levenberg marquardt method/Levenberg_marquardt_algorithm.jpg" width="30%" height="30%"/>
 
 <img src="/Levenberg marquardt method/test_lm_result.gif" width="50%" height="50%"/>
 
 
-# 3. Reference
+# 4. Reference
+
 J. Nocedal and S. J. Wright, *Numerical Optimization*, 2nd ed. Springer, 2006.
+
+Levenberg marquardt method
+K. Madsen, H.B. Nielsen, and O. Tingleff, *Methods for non-linear least squares problems*, 2nd ed. 2004.
