@@ -111,7 +111,7 @@ Also, it reduces the step size to move the estimated parameter in the wrong dire
 
 <img src="/System Id through Gauss Newton method/system_id.gif"/>
 
-
+The combination of Gauss newton method and runge kutta fourth method allows for the identification of parameter (mass).
 
 # 5. Reference
 
