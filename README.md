@@ -107,8 +107,13 @@ Also, it reduces the step size to move the estimated parameter in the wrong dire
 
 <img src="/Levenberg marquardt method/test_lm_result.gif" width="50%" height="50%"/>
 
+# 4. System identification through gauss newton method
 
-# 4. Reference
+<img src="/System Id through Gauss Newton method/system_id.gif"/>
+
+
+
+# 5. Reference
 
 J. Nocedal and S. J. Wright, *Numerical Optimization*, 2nd ed. Springer, 2006.
 
