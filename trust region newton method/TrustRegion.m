@@ -4,6 +4,17 @@ function x_k = TrustRegion(actual_func, model_grad_hes_func, x0, eta, tol, max_i
 
 x_k = x0;
 
+
+x_k_plot = zeros(max_iter+1,2);
+
+tic
+
+figure(1)
+
+hold on
+
+plot(x_k(1), x_k(2),'markersize',20,'Marker','.','Color','b');
+
 for i = 1:max_iter
 
     % Gradient and hessian from approximated model
@@ -42,8 +53,17 @@ for i = 1:max_iter
 
     norm_g = sqrt(g'*g);
 
+    x_k_plot(i,1) = x_k(1);
+    x_k_plot(i,2) = x_k(2);
+    
+    plot(x_k_plot(i,1), x_k_plot(i,2),'markersize',20,'Marker','.','Color','k');
+    str = int2str(i);
+    text(x_k_plot(i,1)+0.05, x_k_plot(i,2), str);
+
     if norm_g < tol
         break;
     end
 
 end
+
+toc
